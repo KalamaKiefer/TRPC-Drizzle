@@ -1,6 +1,4 @@
-import { PostForm } from "@/components/PostForm";
 import { serverClient } from "./_trpc/serverClient";
-import { Post } from "@/components/Post";
 import { Feed } from "@/components/Feed";
 
 export default async function Home() {

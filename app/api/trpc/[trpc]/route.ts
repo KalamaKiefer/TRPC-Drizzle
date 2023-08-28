@@ -1,5 +1,4 @@
 import { fetchRequestHandler } from "@trpc/server/adapters/fetch";
-// fetch request handler has exact same signatures we need for app router next js route handler.
 
 import { appRouter } from "@/server";
 
